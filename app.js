@@ -9,8 +9,8 @@ var http = require('http');
 var path = require('path');
 
 //load customers route
-var customers = require('./routes/products');
-var customersweb = require('./routes/productsweb');
+var products = require('./routes/products');
+var productsweb = require('./routes/productsweb');
 var app = express();
 
 var connection  = require('express-myconnection');
