@@ -1,0 +1,22 @@
+{
+    "<%=page_item%>": [{
+            <% if(data.length){
+                for(var i = 0;i < data.length;i++) {
+                if (i > 0) { %>
+                }, {
+                <% } else { %>
+                <% } %>
+                "no": "<%=data[i].id%>",
+                "name": "<%=data[i].name%>",
+                "brand": "<%=data[i].brand%>",
+                "screensize": "<%=data[i].screensize%>",
+                "operating_system": "<%=data[i].operating_system%>",
+                "internal_memory": "<%=data[i].internal_memory%>",
+                "ram": "<%=data[i].ram%>",
+                "price": "<%=data[i].price%>",
+                "image": "<%=data[i].image%>"
+                <% }
+             } else { %>
+            <% } %>
+        }]
+}
