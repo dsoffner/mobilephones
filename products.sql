@@ -44,11 +44,11 @@ CREATE TABLE IF NOT EXISTS `products` (
 --
 
 INSERT INTO `products` (`id`, `name`, `brand`, `screensize`, `operating_system`, `internal_memory`, `ram`, `price`, `image`) VALUES
-(1, 'LG Nexus 5X H791 4G 32GB Black', 'LG', '5.2-inch', 'Android 6.0 (Marshmallow)', '32GB', '2GB', 'AU$ 383', 'lg_nexus_5x_h798_32gb_black_-_1_3.jpg'),
-(2, 'Apple iPhone 7 256G Rose Gold', 'Apple', '4.7-inch', 'iOS', '256GB', '2GB', 'AU$ 1,148', 'apple_iphone_7_256g_rose_gold_hk_-_1.jpg'),
-(3, 'Google Pixel 128GB Black', 'Google', '5.0-inch', 'Android 7.0 (Nougat)', '128GB', '4GB', 'AU$ 1,104', 'google_pixel_32gb_black_-_1_2.jpg'),
-(4, 'Lenovo VIBE K5 Note A7020a40', 'Lenovo', '5.0-inch', 'Android 5.0 (Lollipop)', '32GB', '4GB', 'AU$ 262', 'lenovo_vibe_k5_note_a7020a40_dual_sim_4g_32gb_gold_-_1.jpg'),
-(5, 'Sony Xperia X F5122 64GB Black', 'Sony', '5.0-inch', 'Android 6.0 (Marshmallow)', '64GB', '3GB', 'AU$ 404', 'sony_xperia_x_f5122_dual_sim_4g_64gb_black_-_1.jpg');
+(1, 'LG Nexus 5X H791 4G 32GB Black', 'LG', '5.2-inch', 'Android 6.0 (Marshmallow)', '32GB', '2GB', 'AU$ 383', 'lg_nexus_5x_h798_32gb_black.jpg'),
+(2, 'Apple iPhone 7 256G Rose Gold', 'Apple', '4.7-inch', 'iOS', '256GB', '2GB', 'AU$ 1,148', 'apple_iphone_7_256g_rose_gold_hk.jpg'),
+(3, 'Google Pixel 128GB Black', 'Google', '5.0-inch', 'Android 7.0 (Nougat)', '128GB', '4GB', 'AU$ 1,104', 'google_pixel_32gb_black.jpg'),
+(4, 'Lenovo VIBE K5 Note A7020a40', 'Lenovo', '5.0-inch', 'Android 5.0 (Lollipop)', '32GB', '4GB', 'AU$ 262', 'lenovo_vibe_k5_note_a7020a40_dual_sim_4g_32gb_gold.jpg'),
+(5, 'Sony Xperia X F5122 64GB Black', 'Sony', '5.0-inch', 'Android 6.0 (Marshmallow)', '64GB', '3GB', 'AU$ 404', 'sony_xperia_x_f5122_dual_sim_4g_64gb_black.jpg');
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
